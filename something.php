@@ -1,4 +1,4 @@
-<h1>Front Page for now</h1>
+<h1>Front Page</h1>
 <div>
   <canvas id="myChart"></canvas>
 </div>
