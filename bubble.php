@@ -1,3 +1,7 @@
+<?php
+Include "view-header.php";
+?>
+
 <h1>Front Page</h1>
 <div>
   <canvas id="myChart"></canvas>
@@ -82,3 +86,7 @@
 };
     options: {});
 </script>
+
+<?php
+Include "view-footer.php";
+?>
