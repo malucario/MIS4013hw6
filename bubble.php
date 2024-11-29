@@ -10,10 +10,8 @@ Include "view-header.php";
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-  // Get the canvas context
   const ctx = document.getElementById('myChart').getContext('2d');
-
-  // Data for the chart
+  
   const data = {
     datasets: [{
       label: 'Whiff Data',
@@ -39,7 +37,6 @@ Include "view-header.php";
     }]
   };
 
-  // Chart configuration
   const config = {
     type: 'bubble',
     data: data,
@@ -67,7 +64,6 @@ Include "view-header.php";
     }
   };
 
-  // Create the chart
   new Chart(ctx, config);
 </script>
 
