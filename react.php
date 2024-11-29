@@ -7,7 +7,6 @@ Include "view-header.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Background Video</title>
     <style>
         body, html {
             margin: 0;
@@ -54,8 +53,8 @@ Include "view-header.php";
 
     <!-- Foreground Content -->
     <div class="content">
-        <h1>Welcome to My Page!</h1>
-        <p>This page uses a YouTube video as the background.</p>
+        <h1>Video</h1>
+        <p>This uses bideo.js to display this pokemon music video from YouTube in the background of the page.</p>
     </div>
 </body>
 </html>
