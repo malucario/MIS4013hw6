@@ -2,8 +2,6 @@
 Include "view-header.php";
 ?>
 
-<!DOCTYPE html>
-<html>
     <head>
         <title>First animation of animejs</title>
         <script src=
@@ -28,7 +26,6 @@ Include "view-header.php";
             });
         </script>
     </body>
-</html>
 
 <?php
 Include "view-footer.php";
