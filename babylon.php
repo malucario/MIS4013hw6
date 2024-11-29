@@ -7,7 +7,6 @@ Include "view-header.php";
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Babylon Template</title>
 
         <style>
             html, body {
@@ -27,6 +26,8 @@ Include "view-header.php";
         <script src="https://cdn.babylonjs.com/babylon.js"></script>
 
     </head>
+
+	<p>This is using Babylon.js to create a 3D object.</p>
 
    <body>
 
