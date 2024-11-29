@@ -1,5 +1,8 @@
+<?php
+Include "view-header.php";
+?>
 
-
+<script>
 import { useState } from 'react';
 
 function Square({ value, onSquareClick }) {
@@ -115,3 +118,9 @@ function calculateWinner(squares) {
   }
   return null;
 }
+</script>
+
+
+<?php
+Include "view-footer.php";
+?>
