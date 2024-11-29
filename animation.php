@@ -21,7 +21,7 @@ Include "view-header.php";
 </head>
 
 <h1>Learning JavaScript Libraries!</h1>
-<p>Watch this box bounce around until it hits the corner perfectly.</p>
+<p>This is using anime.js. Watch this box bounce around until it hits the corner perfectly.</p>
 
 <body>
     <div class="bouncing-box"></div>
