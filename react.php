@@ -36,12 +36,12 @@ Include "view-header.php";
         iframe {
             width: 100%;
             height: 100%;
-            pointer-events: none; /* Prevent interaction with the video */
+            pointer-events: none; /*Make sure user can't interact with video*/
         }
     </style>
 </head>
 <body>
-    <!-- YouTube Video as Background -->
+    <!-- Set video as background -->
     <div id="video-background">
         <iframe 
             src="https://www.youtube.com/embed/pq2SGs7cO2Y?autoplay=1&mute=1&loop=1&playlist=pq2SGs7cO2Y&controls=0&showinfo=0" 
@@ -51,7 +51,7 @@ Include "view-header.php";
         </iframe>
     </div>
 
-    <!-- Foreground Content -->
+    <!-- Make foreground content -->
     <div class="content">
         <h1>Video</h1>
         <p>This uses bideo.js to display this pokemon music video from YouTube in the background of the page.</p>
