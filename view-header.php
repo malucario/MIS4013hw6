@@ -23,7 +23,7 @@
           <a class="nav-link" href="bubble.php">Bubble Chart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="calc.php">Calculator</a>
+          <a class="nav-link" href="animation.php">Animation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="reverse.php">Text Reversal</a>
