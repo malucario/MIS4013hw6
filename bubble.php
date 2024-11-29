@@ -12,8 +12,7 @@ Include "view-header.php";
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
-    type: 'bubble',
-    data: {
+    const data = {
   datasets: [{
     label: 'Whiff Data',
     data: [{
@@ -84,7 +83,11 @@ Include "view-header.php";
     backgroundColor: 'rgb(255, 99, 132)'
   }]
 };
-    options: {});
+  const config = {
+  type: 'bubble',
+  data: data,
+  options: {}
+};
 </script>
 
 <?php
