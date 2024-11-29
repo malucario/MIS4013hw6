@@ -1,4 +1,6 @@
-
+<?php
+Include "view-header.php";
+?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,3 +71,7 @@
 	</script>
 
    </body>
+
+<?php
+Include "view-footer.php";
+?>
