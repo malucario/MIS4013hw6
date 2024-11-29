@@ -9,7 +9,7 @@ Include "view-header.php";
     </head>
 
 <h1>Learning JavaScript Libraries!</h1>
-<p>Good luck reading this.</p>
+<p>Good luck reading this. See if you can snipe one of the other pages on the navbar.</p>
     <body>
         <div style="background: blue; 
                     height: 40px; 
