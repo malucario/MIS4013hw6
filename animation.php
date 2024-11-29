@@ -27,10 +27,10 @@ Include "view-header.php";
     <div class="bouncing-box"></div>
     <script>
         const box = document.querySelector('.bouncing-box');
-        let x = 0; // Initial X position
-        let y = 0; // Initial Y position
-        let dx = 2; // X direction speed
-        let dy = 2; // Y direction speed
+        let x = 0; 
+        let y = 0; 
+        let dx = 2; 
+        let dy = 2; 
 
         function bounce() {
             const boxWidth = box.offsetWidth;
@@ -38,19 +38,16 @@ Include "view-header.php";
             const windowWidth = window.innerWidth;
             const windowHeight = window.innerHeight;
 
-            // Update position
             x += dx;
             y += dy;
 
-            // Check for collisions
             if (x + boxWidth >= windowWidth || x <= 0) {
-                dx *= -1; // Reverse X direction
+                dx *= -1; 
             }
             if (y + boxHeight >= windowHeight || y <= 0) {
-                dy *= -1; // Reverse Y direction
+                dy *= -1; 
             }
-
-            // Apply new position
+            
             anime({
                 targets: box,
                 translateX: x,
@@ -59,11 +56,9 @@ Include "view-header.php";
                 easing: 'linear',
             });
 
-            // Repeat
             requestAnimationFrame(bounce);
         }
 
-        // Start the animation
         bounce();
     </script>
 </body>
