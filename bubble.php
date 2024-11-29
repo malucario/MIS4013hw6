@@ -2,7 +2,7 @@
 Include "view-header.php";
 ?>
 
-<h1>Front Page</h1>
+<h1>Bubble Chart</h1>
 <div>
   <canvas id="myChart"></canvas>
 </div>
