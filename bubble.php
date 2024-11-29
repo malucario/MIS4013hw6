@@ -3,6 +3,7 @@ Include "view-header.php";
 ?>
 
 <h1>Bubble Chart</h1>
+<p>Imagine the bubble chart is a baseball strike zone. Each point in the chart is a section of the strike zone and the size of the dots shows the frequency of swing and misses.</p>
 <div>
   <canvas id="myChart"></canvas>
 </div>
