@@ -29,7 +29,7 @@
           <a class="nav-link" href="babylon.php">Babylon</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="guess.php">Guessing Game</a>
+          <a class="nav-link" href="react.php">React Game</a>
         </li>
       </ul>
     </div>
