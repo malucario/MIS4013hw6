@@ -26,7 +26,7 @@
           <a class="nav-link" href="animation.php">Animation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="reverse.php">Text Reversal</a>
+          <a class="nav-link" href="babylon.php">Babylon</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="guess.php">Guessing Game</a>
