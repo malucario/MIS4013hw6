@@ -26,7 +26,7 @@ Include "view-header.php";
         <script src="https://cdn.babylonjs.com/babylon.js"></script>
 
     </head>
-
+	<h1>Babylon Object</h1>
 	<p>This is using Babylon.js to create a 3D object.</p>
 
    <body>
