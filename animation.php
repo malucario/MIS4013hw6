@@ -21,7 +21,7 @@ Include "view-header.php";
 </head>
 
 <h1>Learning JavaScript Libraries!</h1>
-<p>Good luck reading this. See if you can snipe one of the other pages on the navbar.</p>
+<p>Watch this box bounce around until it hits the corner perfectly.</p>
 
 <body>
     <div class="bouncing-box"></div>
