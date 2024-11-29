@@ -2,32 +2,71 @@
 Include "view-header.php";
 ?>
 
-    <head>
-        <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js">
-        </script>
-    </head>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        .bouncing-box {
+            background: blue;
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
 
 <h1>Learning JavaScript Libraries!</h1>
 <p>Good luck reading this. See if you can snipe one of the other pages on the navbar.</p>
-    <body>
-        <div style="background: blue; 
-                    height: 40px; 
-                    width: 40px;">
-        </div>
-        <script>
-            let animation = anime({
-                targets: "div",
-                translateX: 150,
-                height: "80px",
-                width: "80px",
-                duration: 2000,
-                easing: "linear",
-                direction: "alternate",
-                loop: true,
+
+<body>
+    <div class="bouncing-box"></div>
+    <script>
+        const box = document.querySelector('.bouncing-box');
+        let x = 0; // Initial X position
+        let y = 0; // Initial Y position
+        let dx = 2; // X direction speed
+        let dy = 2; // Y direction speed
+
+        function bounce() {
+            const boxWidth = box.offsetWidth;
+            const boxHeight = box.offsetHeight;
+            const windowWidth = window.innerWidth;
+            const windowHeight = window.innerHeight;
+
+            // Update position
+            x += dx;
+            y += dy;
+
+            // Check for collisions
+            if (x + boxWidth >= windowWidth || x <= 0) {
+                dx *= -1; // Reverse X direction
+            }
+            if (y + boxHeight >= windowHeight || y <= 0) {
+                dy *= -1; // Reverse Y direction
+            }
+
+            // Apply new position
+            anime({
+                targets: box,
+                translateX: x,
+                translateY: y,
+                duration: 20,
+                easing: 'linear',
             });
-        </script>
-    </body>
+
+            // Repeat
+            requestAnimationFrame(bounce);
+        }
+
+        // Start the animation
+        bounce();
+    </script>
+</body>
 
 <?php
 Include "view-footer.php";
