@@ -3,11 +3,13 @@ Include "view-header.php";
 ?>
 
     <head>
-        <title>First animation of animejs</title>
         <script src=
 "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js">
         </script>
     </head>
+
+<h1>Learning JavaScript Libraries!</h1>
+<p>Good luck reading this.</p>
     <body>
         <div style="background: blue; 
                     height: 40px; 
