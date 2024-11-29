@@ -2,6 +2,9 @@
 Include "view-header.php";
 ?>
 
+<h1>React Game</h1>
+<p>Play tic tac toe using react.js.</p>
+
 <script>
 import { useState } from 'react';
 
